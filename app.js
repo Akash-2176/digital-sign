@@ -62,6 +62,7 @@ document.getElementById('thickness').addEventListener('input', (e) => {
   baseThickness.value = parseInt(e.target.value, 10);
 });
 
+
 // Clear the canvas
 document.getElementById('clear').addEventListener('click', () => {
   paper.project.activeLayer.removeChildren(); // Remove all paths
